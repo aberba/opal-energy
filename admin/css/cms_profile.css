@@ -1,0 +1,64 @@
+@import url("table.css");
+
+button {
+	margin: 10px;
+}
+
+form input[type=text],
+input[type=email],
+input[type=password] {
+	padding: 5px;
+	margin: 5px 3px;
+	border: 1px solid #eeeeee;
+}
+
+.information-section {
+	padding: 10px;
+	margin: 10px;
+	border: 1px solid #eeeeee;
+}
+
+button {
+	margin: 10px;
+}
+
+.information-section table {
+	display: block;
+	float: left;
+	margin: 10px;
+}
+
+.information-section table tr td {
+	padding: 5px;
+}
+
+.information-section .information-form {
+	padding: 10px;
+	margin: 10px;
+	border: 1px solid #eeeeee;
+}
+
+.information-section form {
+	display: block;
+	float: left;
+	width: 250px;
+    padding: 3px;
+    margin: 5px;
+    border: 1px solid #eeeeee;
+}
+
+
+/* Pass section */
+.password-section {
+	padding: 10px;
+	margin: 10px;
+	border: 1px solid #eeeeee;
+}
+
+.password-section form {
+	display: block;
+	width: 300px;
+	padding: 10px;
+	margin: 10px;
+	border: 1px solid #eeeeee;
+}

@@ -1,0 +1,27 @@
+@import url("table.css");
+
+.clients-section {
+	padding: 10px;
+    border: 1px solid #eeeeee;
+}
+
+.clients-section .cancel-btn {
+	display: none;
+}
+
+.clients-section .client-upload-form {
+	display: none;
+}
+
+.clients-section .client-upload-form label {
+	display: block;
+}
+
+.clients-section .client-upload-form .save-btn {
+	display: block;
+}
+
+
+.table tr td img {
+	width: 100%;
+}

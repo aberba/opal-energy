@@ -1,0 +1,300 @@
+/*---Opal Energy GENERAL STYLES --*/
+
+@import url("normalize.css");
+@import url("form.css");
+
+@charset "utf-8";
+
+@font-face {
+    font-family: "Abel";
+    src: url('../fonts/Abel-Regular.ttf') format("truetype");
+}
+
+@font-face {
+	font-family: "Typola";
+	src: url('../fonts/typola.ttf') format("truetype");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: block;
+    font-size: 18px;
+    font-family: "Abel", Arial, Helvetica;
+    background-color: #ffffff;
+}
+
+em, i {
+    font-style: italic;
+    font-weight: 100;
+}
+
+p {
+    line-height: 20px;
+}
+
+.valid {
+    color: green;
+}
+
+.invalid {
+    color: red;
+}
+
+
+/*-------------- Pages Styles  ------------*/
+.notification {
+    position: fixed;
+    display: block;
+    min-width: 500px;
+    top: 60px;
+    left: 50%;
+    padding: 10px;
+    margin: 0 0 0 -250px; 
+    color: #000000;
+    text-align: center;
+    font-weight: bold;
+    background: #FDF29C;
+    border: 1px solid #FDF29C;
+    border-radius: 2px;
+    box-shadow: 2px 2px rgba(0,0,0,0.10); 
+    z-index: 10000;
+}
+
+.button {
+    display: inline-block;
+    min-width: 60px;
+    padding: 5px;
+    margin: 3px;
+    font-size: 16px;
+    background: #eeeeee;
+    border: 1px solid #eeeeee;
+    text-shadow: 1px 1px rgba(0,0,0,0.10);
+    box-shadow: 1px 0 rgba(0,0,0,0.10);
+}
+
+
+/*----------- Clearfix --------------*/
+.clearfix:after {
+    content: " ";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0; 
+}
+
+.clearfix {
+    display: block;
+}
+
+html[xmlns] .clearfix {
+    display: block;
+}
+
+* html .clearfix {
+    height: 1%;
+}
+
+
+
+/*-----------   GENERAL STYLES ---------*/
+a:link, a:visited {
+    color: #0D83CC;
+    text-decoration: none;
+    outline: none;
+}
+
+a:link:hover {
+    text-decoration: underline;
+}
+
+
+.green {
+    color: #ffffff;
+    background-color: rgba(17, 149, 37, 1);
+    border: 1px solid rgba(17, 149, 37, 1);
+}
+
+
+
+/*-------------- Global Lightbox -----------*/
+.lightbox {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    z-index: 100;
+}
+
+.lightbox .container {
+    position: fixed;
+    left: 50%;
+    top: 10%;
+    width: 450px;
+    min-height: 200px;
+    padding: 20px;
+    margin: 0 0 0 -225px;
+    background: #ffffff;
+    box-shadow: 0 0 2px 3px rgba(0,0,0,0.15); 
+}
+
+.lightbox .container input, .lightbox .container label, .lightbox .container textarea {
+    display: block;
+}
+
+.lightbox .container .close {
+    display: block;
+    float: right;
+    width: 30px;
+    height: 30px;
+    margin: -35px -35px 0 0;
+    color: #ffffff;
+    padding: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    background: rgba(0,0,0,0.8);
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+
+/************  Main Style *****************/
+#wrapper {
+    display: block;
+    position: relative;
+    width: 900px;
+    margin: 0 auto;
+    padding: 0;
+    background: #ffffff;
+    box-shadow: 0px 0px 3px 3px rgba(0,0,0,0.15);
+}
+
+/*-------------- Header -----------*/
+#header {
+    display: block;
+    width: auto;
+    padding: 10px 10px 5px 10px;
+    color: #ffffff;
+    text-shadow: 1px 1px rgba(0,0,0,0.15);
+    border: 1px solid #eeeeee;
+}
+
+
+/*-------------- Main Navigation  ------------*/
+
+#header .banner {
+    width: 860px;
+    padding: 5px;
+    margin: 0 20px 20px 10px;
+    text-align: center;
+    border: 1px solid #eeeeee;
+}
+
+#header .navigation {
+    margin: 10px 0 3px 0;
+}
+
+#header .navigation ul li {
+    display: inline-block;
+}
+
+#header .navigation ul li a {
+    font-size: 15px;
+    margin: 5px 10px;
+} 
+
+
+/*-------------- Aside  ------------*/
+#aside {
+    float: left;
+    width: 200px;
+    color: #ffffff;
+    padding: 5px;
+    margin: 20px 10px 20px 20px;
+    border: 1px solid #eeeeee;
+}
+
+#aside ul li {
+    list-style: none;
+    margin: 5px 0;
+}
+
+#aside ul li a:link {
+    width: 188px;
+    padding: 5px 10px;
+    font-size: 16px;
+    text-transform: uppercase;
+    background: #eeeeee;
+}
+
+#aside ul li a:link:hover {
+    transition: background .2s ease;
+    background: #ffffff;
+}
+
+#aside ul li a:link, #aside ul li a:visited, #aside ul li a:active  {
+    color: #333333;
+    text-decoration: none;
+}
+
+#aside ul li a:link span {
+    float: right;
+}
+
+#content {
+    float: right;
+    display: block;
+    width: 640px;
+    min-height: 500px;
+    margin: 20px 20px 20px 0;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    color: #000000;
+    border: 1px solid #eeeeee;
+}
+
+#content #content-div {
+    display: block;
+    padding: 20px;
+    margin: 0;
+    text-align: justify;
+    background-color: #fff;
+    border: 1px solid #fff;
+}
+
+#content .content-div a:link {
+    text-decoration: none;
+}
+
+#content .content-div a:link:hover {
+    text-decoration: underline;
+}
+
+
+/*-------------- Footer  ------------*/
+#footer {
+    width: 900px;
+    padding: 20px;
+    color: #ffffff;
+    padding: 5px 10px;
+    margin: 50px 0 0 0;
+    text-align: center !important;
+    background-color: #333333;
+    border: 1px solid #333333; 
+    clear: both;
+}

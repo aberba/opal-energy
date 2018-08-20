@@ -1,0 +1,191 @@
+
+
+/*   Products Page CSS by Karabuta World */
+#sorting-section {
+   display: block;
+   width: auto;
+   margin: 0 0 10px 0px;
+}
+
+#sorting-section ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+    margin: 5px;
+}
+
+#sorting-section ul li a {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.product  {
+   float: left;
+   display: block;
+   width: 320px;
+   min-height: 360px;
+   padding: 0;
+   margin: 20px 14px;
+   border: 1px solid #eeeeee;
+}
+
+.product .name {
+    font-size: 18px;
+    padding: 5px 10px;
+    margin: 5px 0;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 0px 0px rgba(0,0,0,0.15);
+    word-wrap: break-word;
+}
+
+.product img {
+    width: 100%;
+    height: 200px;
+}
+
+.product .product-info {
+    padding: 0 10px;
+    font-size: 15px;
+    text-align: left;
+    text-shadow: 1px 1px rgba(0,0,0,0.10);
+    overflow-y: auto;
+}
+
+.product .product-info .specs {
+    margin: 10px auto 3px auto;
+}
+
+.product .product-info .link {
+    margin: 3px auto;
+}
+
+
+.pagination-section {
+    padding: 10px 10px;
+    margin: 10px 0;
+    text-align: center;
+    border: 1px dotted #eeeeee;
+    clear: both;
+}
+
+.pagination-section a, .pagination-section span.current {
+    padding: 5px;
+    margin: 0 5px;
+}
+
+.pagination-section a:hover {
+    text-decoration: underline;
+}
+
+.pagination-section span.current {
+    color: #000000;
+    font-weight: bold;
+}
+
+.pagination-section a.previous {
+    float: left;
+}
+
+.pagination-section a.next {
+    float: right;
+}
+
+
+/* For search page resulats title*/
+.results-title {
+    margin: 5px 10px;
+}
+
+
+
+/***********************  Products Lightbox **************************/
+.lightbox {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.lightbox .container {
+    position: fixed;
+    left: 50%;
+    top: 13%;
+    width: 700px;
+    min-height: 430px;
+    padding: 20px;
+    margin: 0 0 0 -350px;
+    background: url("../img/icons/ajax-loader.gif") 50% 50% no-repeat #ffffff;
+    box-shadow: 0 0 2px 3px rgba(0,0,0,0.15);
+}
+
+.container #close {
+    float: right;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    margin: -30px -30px 0 0;
+    color: #ffffff;
+    text-align: center;
+    background: rgba(0, 0, 0, 1);
+    border: 1px solid rgba(0, 0, 0, 1);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.container #close:hover {
+    border: 1px solid #eeeeee;
+}
+
+.lightbox .container h3 {
+    font-size: 18px;
+}
+
+.container .preview {
+    float: left;
+    width: 450px;
+    height: 400px;
+    padding: 5px;
+    border: 1px solid #eeeeee;
+}
+
+.container .preview .preview-image {
+    display: block;
+    width: 438px;
+    height: 308px;
+}
+
+.container .preview .product-info {
+    padding: 3px;
+    font-size: 16px;
+    word-wrap: break-word;
+}
+
+.container .preview .product-info p {
+    overflow-y: auto;
+    height: 55px;
+}
+
+.container .list {
+    float: left;
+    width: 200px;
+    height: 400px;
+    padding: 5px;
+    margin: 0 5px;
+    border: 1px solid #eeeeee;
+}
+
+.container .list .image {
+    width: 91px;
+    height: 75px;
+    margin: 0 3px 0 0;
+    border: 3px solid #ffffff;
+}
+
+.container .list .current {
+    border: 3px solid #13E845;
+}
+/*   End of lightbox css */

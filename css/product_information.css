@@ -1,0 +1,61 @@
+.information-section {
+	padding: 10px;
+}
+
+.information-section .title {
+	font-size: 
+}
+
+.information-section img {
+	width: 400px;
+	height: 270px;
+	float: left;
+	margin: 3px 10px 10px 0;
+}
+
+.information-section .image-conatiner {
+	float: left;
+	border: 1px solid #eeeeee;
+}
+
+.information-section .listing-container {
+	float: left;
+	width: 267px;
+	height: 270px;
+	padding: 5px;
+	margin: 3px 0;
+}
+
+.information-section .listing-container .specs {
+	font-weight: bold;
+}
+
+.information-section .listing-container  table {
+	margin: 10px 0 0 0;
+	font-size: 16px;
+}
+
+.information-section .listing-container table tr td {
+	padding: 3px;
+}
+
+.information-section .description-section {
+	padding: 10px;
+	border: 1px solid #eeeeee;
+	clear: both;
+}
+
+.information-section .description-section img {
+	width: 300px;
+	height: 170px;
+	float: left;
+	margin: 3px 30px 10px 0;
+}
+
+.information-section .description-section h3 {
+	font-weight: bold;
+}
+
+.information-section .description-section p {
+	margin: 0 0 10px 0;
+}

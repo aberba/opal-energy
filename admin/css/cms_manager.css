@@ -1,0 +1,236 @@
+@import url("table.css");
+@import url("form.css");
+
+button.toggle {
+	width: 100%;
+}
+
+.status-section {
+	padding: 5px;
+}
+
+.status-section .group {
+	float: left;
+	width: 150px;
+	min-height: 150px;
+	padding: 5px 10px;
+	margin: 5px 0 5px 5px;
+	color: #ffffff;
+	background: rgba(17, 149, 37, 1);
+	border: 1px solid rgba(17, 149, 37, 1);
+}
+
+.status-section .group h4 {
+	margin: 3px 0;
+	font-size: 18px;
+}
+
+.status-section .group ul li {
+	list-style: none;
+}
+
+.upload-section {
+	padding: 5px;
+	margin: 20px 10px;
+	border: 1px solid #eeeeee;
+}
+
+.upload-section .upload-container {
+	display: none;
+}
+
+.upload-section form {
+	padding: 5px;
+	margin: 20px 5px;
+	border: 1px solid #eeeeee;
+}
+
+.upload-section form label {
+	display: block;
+}
+
+.upload-section form label {
+	margin: 0 3px 5px 3px;
+	font-size: 18px;
+}
+
+.upload-section form input[type=file] {
+	margin: 2px;
+	font-size: 16px;
+}
+
+.upload-section select {
+	display: block;
+	padding: 3px;
+	margin: 5px 3px;
+}
+
+.upload-section select option {
+    padding: 3px;
+}
+
+
+/*  Templates Images section */
+.template-slides-section {
+	padding: 5px;
+	margin: 10px;
+	border: 1px solid #eeeeee;
+}
+
+.template-slides-section .slides-container {
+    display: none;
+}
+
+.template-slides-section .close {
+	float: right;
+	margin: -2px -2px 0 0;
+}
+
+.template-slides-section .slides {
+	padding: 5px;
+	margin: 5px 0;
+	border: 1px solid #eeeeee;
+}
+
+.template-slides-section .slides .slide {
+	float: left;
+	width: 350px;
+    margin: 5px 3px;
+    border: 1px solid #eeeeee;
+}
+
+.template-slides-section .slides .slide button {
+	padding: 0 2px;
+	margin: 0 0 0 5px;
+	font-size: 12px;
+	min-width: 40px;
+}
+
+.template-slides-section .slides .slide img {
+	width: 100%;
+	height: 110px;
+	margin: 3px 0 0 0;
+}
+
+.template-slides-section .slides .slide-info {
+	float: left;
+	width: 225px;
+	height: 145px;
+	margin: 5px 0;
+	padding: 5px;
+	overflow-y: auto;
+	border: 1px solid #eeeeee;
+}
+
+.template-slides-section .homepage-images {
+	padding: 5px;
+	margin: 10px 0;
+	border: 1px solid #eeeeee;
+}
+
+.template-slides-section .thumb {
+	float: left;
+	width: 188px;
+	margin: 0 5px 0 5px;
+	border: 1px solid #eeeeee;
+}
+
+.template-slides-section .thumb img {
+	width: 100%;
+	height: 100px;
+}
+
+
+/*  Map section */
+.map-section {
+	padding: 5px;
+	margin: 10px;
+	border: 1px solid #eeeeee;
+}
+
+.map-section .map-container {
+	display: none;
+	width: 595px;
+	height: 300px;
+	padding: 5px;
+	margin: 10px 0;
+	border: 1px solid #eeeeee;
+}
+
+
+/*  Notification section  */
+.notification-section {
+	padding: 5px;
+	margin: 20px 10px;
+	border: 1px solid #eeeeee;
+}
+
+.notification-section .notification-container {
+	display: none;
+}
+
+.notification-section h4 {
+    margin: 0 0 0 5px;
+}
+
+.notification-section .table {
+	float: left;
+	width: 345px;
+}
+
+.notification-section .table .edit {
+ 	float: right;
+	width: 15px;
+	margin: 3px;
+	cursor: pointer;
+	border: 1px solid #ffffff;
+ }
+
+.notification-section .table .edit:hover {
+	border: 2px dotted #eeeeee;
+}
+
+.notification-section .table .edit img {
+	width: 100%;
+	height: 100%;
+}
+
+.notification-form {
+	float: left;
+    width: 250px;
+    padding: 3px;
+    margin: 0 0 5px 10px;
+    font-size: 15px;
+    border: 1px solid #eeeeee;
+}
+
+.notification-form textarea {
+	width: 100%;
+	width: 240px;
+	height: 100px;
+	margin: 0 2px 10px 3px;
+}
+
+.notification-form textarea, form input[type=text] {
+	border: 1px solid #eeeeee;
+}
+
+.notification-form textarea:hover, form input[type=text]:hover {
+	border: 1px solid #13E845;
+}
+
+.notification-form input[type=text] {
+	display: inline-block;
+	width: 60px;
+	padding: 0 2px;
+	margin: 0 3px 10px 2px;
+	text-align: center;
+}
+
+.notification-form input[name=month], form input[name=day] {
+	width: 40px;
+}
+
+.notification-form input[type=radio] {
+	margin: 2px 3px 10px 10px;
+}

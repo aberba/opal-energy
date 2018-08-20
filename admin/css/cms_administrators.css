@@ -1,0 +1,39 @@
+@import url("form.css");
+@import url("table.css");
+
+.form-section {
+	padding: 5px;
+	margin: 10px;
+	border: 1px dotted #eeeeee;
+}
+
+
+.form input[type=text], .form input[type=password], .form select {
+	display: inline-block;
+	width: 200px;
+	margin: 5px 20px;
+}
+
+.form-section .button {
+	margin: 5px 3px 5px 20px;
+}
+
+.form-section .cancel, .form-section .save {
+	display: none;
+}
+
+
+.table {
+	display: block;
+	margin: 20px auto;
+}
+
+.table tr td button {
+	padding: 1px 2px;
+	margin: 0 2px;
+	min-width: 40px;
+}
+
+.table .delete {
+	background: url("../img/icons/trash.png") contain;
+}

@@ -1,0 +1,62 @@
+@import url("table.css");
+@import url("form.css");
+
+.form label, .form .button {
+	display: block;
+}
+
+.table-section {
+	padding: 10px;
+	margin: 10px;
+	border: 1px solid #eeeeee;
+}
+
+.table {
+	margin: 10px;
+}
+
+.table .edit {
+ 	float: right;
+	width: 15px;
+	margin: 3px;
+	cursor: pointer;
+	border: 1px solid #ffffff;
+ }
+
+ .table .edit img {
+ 	width: 100%;
+ 	height: 100%;
+ }
+
+.table tr.odd {
+	background: #eeeeee;
+}
+
+.table td:first-child {
+    text-transform: capitalize;
+}
+
+.table tr td[contenteditable=true]:focus {
+	border: 2px solid #13E845 !important;
+}
+
+
+.advanced-settings-section {
+	padding: 10px;
+    margin: 10px;
+    border: 1px solid #eeeeee;
+}
+
+.advanced-settings-section .form {
+	padding: 10px;
+	border: 1px solid #eeeeee;
+}
+
+.advanced-settings-section .form label {
+	padding: 5px 10px;
+}
+
+.advanced-settings-section .form input[type=text] {
+	margin: 6px 0 20px 5px;
+	min-width: 300px;
+}

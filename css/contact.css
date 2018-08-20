@@ -1,0 +1,74 @@
+.information-section {
+    padding: 10px;
+    margin: 10px 20px;
+    border: 1px solid #eeeeee;
+}
+
+.information-section table {
+	margin: 10px;
+	border: 1px solid #eeeeee;
+}
+
+.information-section table tr {
+    margin: 5px;
+}
+
+.information-section table tr:nth-child(even) {
+    background: #eeeeee;
+}
+
+.information-section table tr td {
+	padding: 10px 20px;
+}
+
+
+/* About us section */
+.about-us-section {
+    padding: 10px;
+    margin: 20px;
+    border: 1px solid #eeeeee;
+}
+
+.about-us-section p {
+    margin: 20px 0;
+}
+
+
+/* Google maps */
+.location-map-section {
+    padding: 10px;
+    margin: 20px;
+    border: 1px solid #eeeeee;
+}
+
+.location-map-section .map-container {
+	display: block;
+    width: 100%;
+    height: 300px;
+    margin: 10px 0;
+    border: 1px solid #eeeeee;
+}
+
+.clients-section {
+    display: block;
+    padding: 5px;
+    margin: 20px 20px;
+    border: 1px solid #eeeeee;
+}
+
+.clients-section div {
+    display: flex;
+    flex-direction: row;
+}
+
+.clients-section div section {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+
+.clients-section div section figure img {
+    width: 100%;
+    height: 100%;
+}

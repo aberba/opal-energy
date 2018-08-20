@@ -1,0 +1,31 @@
+.form {
+    display: block;
+    padding: 5px;
+}
+
+.form label {
+    padding: 3px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+
+.form input[type=text], .form input[type=email], .form input[type=password],
+.form input[type=file], .form textarea, .form select {
+    width: 400px;
+    padding: 5px 10px;
+    margin: 0 0 20px 0;
+    border: 2px solid #eeeeee;
+    outline: none;
+}
+
+.form select option {
+    padding: 2px 5px;
+}
+
+.form input[type=text]:focus, .form input[type=email]:focus, .form input[type=password]:focus, 
+.form input[type=file]:focus, .form textarea:focus, .form select:focus {
+    border: 2px solid #45ADF6;
+}
+

@@ -1,0 +1,64 @@
+@import url("form.css");
+
+.form label {
+    display: block;
+}
+
+.form fieldset {
+    padding: 10px;
+    margin: 10px 5px;
+    border: 1px dotted #eeeeee;
+}
+
+.form legend {
+    padding: 5px;
+    border: 1px solid #eeeeee;
+    border-radius: 5px;
+}
+
+.form input[type=text] {
+    width: 500px;
+    margin: 4px 5px 20px 5px; 
+    background: #f0f0f0;
+    border: 1px solid #eeeeee;
+}
+
+.form textarea  {
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+.form textarea[name=introduction] {
+    min-height: 150px;
+}
+
+.form textarea[name=description] {
+    min-height: 200px;
+    width: 600px;
+}
+
+.buttons-section {
+    padding: 3px;
+    margin: 0 3px;    
+}
+
+.buttons-section button {
+    padding: 3px 5px;
+    margin: 2px 5px 2px 0;
+    font-size: 14px;
+    background: #eeeeee;
+    border: 1px solid #a0a0a0;
+    border-radius: 5px;
+}
+
+.buttons-section button#save {
+    background: #8DDE7B;
+    color: #ffffff;
+    border: 1px solid #8DDE7B;
+}
+
+.buttons-section .loader {
+    display: none;
+    margin: 0 0 -5px 20px;
+}
+

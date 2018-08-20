@@ -1,0 +1,48 @@
+@import url("form.css");
+
+button.add-new {
+	width: 620px;
+	margin: 5px;
+}
+.add-question-form {
+	display: none;
+}
+
+.add-question-form input[type=text], .add-question-form textarea {
+	width: 620px;
+}
+
+.add-question-form .button {
+	width: 200px;
+}
+
+.faq-item {
+	margin: 10px 5px 20px 5px;
+}
+
+.faq-item .toggle {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	margin: 5px;
+	color: #000000;
+	text-align: center;
+	background: #ffffff;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.faq-item .question {
+	padding: 5px;
+	margin: 0 0 5px 0;
+	color: #ffffff;
+}
+
+.faq-item .answer {
+	display: none;
+	padding: 5px;
+	margin: 5px 0;
+	height: 60px;
+	overflow-y: auto;
+	border: 1px solid #eeeeee;
+}

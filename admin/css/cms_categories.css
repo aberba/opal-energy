@@ -1,0 +1,54 @@
+
+@import url("form.css");
+@import url("table.css");
+
+.category-form-section {
+    padding: 5px;
+    margin: 15px;
+}
+
+.form {
+    padding: 10px;
+    border: 1px solid #eeeeee; 
+}
+
+.form input[type=text] {
+	width: 300px;
+	padding: 3px 5px;
+    display: inline-block;
+}
+
+.table {
+	margin: 20px;
+}
+
+.table td:first-child {
+    text-transform: capitalize;
+}
+
+.table tr td {
+	padding: 5px 10px;
+}
+
+.table tr td:last-child, .table tr th:last-child {
+    min-width: 10px;
+}
+
+.table tr td[contenteditable=true]:focus {
+	border: 2px solid #13E845 !important;
+}
+
+.table tr td img {
+    width: 15px;
+    cursor: pointer;
+}
+
+.table button {
+	padding: 2px;
+	margin: 3px 5px;
+	font-size: 14px;
+}
+
+.table button:hover {
+	text-decoration: underline;
+}

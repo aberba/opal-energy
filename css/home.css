@@ -1,0 +1,53 @@
+@import url("fscSlider.css");
+
+.slider-section {
+    margin: 10px 0 50px 0;
+    box-shadow: 0 0 1px 2px rgba(0,0,0,0.10);
+}
+
+.thumbs-section {
+   margin: 0 0 10px 0;
+}
+
+.thumbs-section .item-thumb {
+   float: left;
+   display: block;
+   width: 320px;
+   height: 250px;
+   margin: 7px 10px;
+   box-shadow: 1px 1px rgba(0,0,0,0.10)
+}
+
+.thumbs-section .item-thumb:last-child {
+    margin-right: 0;
+}
+
+.thumbs-section .item-thumb h3 {
+    font-size: 16px;
+    padding: 5px 20px;
+    margin: 0 0 5px 0;
+    border: 1px solid #13E845;
+    background-color: #13E845;
+    box-shadow: 0px 1px rgba(0,0,0,0.15);
+}
+
+.thumbs-section .item-thumb h3 a, .thumbs-section .item-thumb h3 a:visited,
+.thumbs-section .item-thumb h3 a:active {
+    color: #ffffff;
+}
+
+.thumbs-section .item-thumb h3 a:hover {
+    text-decoration: underline;
+}
+
+.thumbs-section .item-thumb img {
+    width: 100%;
+    height: 160px;
+}
+
+.thumbs-section .item-thumb p {
+    padding: 0 5px;
+    margin: 0;
+    font-size: 16px;
+    border-top: 1px dotted #eeeeee;
+}

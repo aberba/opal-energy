@@ -1,0 +1,22 @@
+@import url("table.css");
+@import url("form.css");
+
+.form-section {
+	padding: 10px;
+    margin: 10px;
+    border: 1px solid #eeeeee;
+}
+
+.form-section .form {
+	padding: 20px 20px 5px 20px;
+}
+
+.form-section .form label {
+	padding: 5px 10px;
+	margin: 10px 0 0 0;
+	text-transform: capitalize;
+}
+
+.form-section .form input[type=radio] {
+	margin: 15px 0 30px 10px;
+}

@@ -1,0 +1,42 @@
+
+.quick-links-section {
+	display: block;
+	padding: 10px;
+	margin: 10px;
+	border: 1px solid #eeeeee;
+}
+
+.quick-links-section ul li {
+	list-style: none;
+	margin: 5px 0;
+}
+
+
+.quick-links-section .welcome {
+	padding: 25px;
+	margin: 0px;
+	border: 1px solid #eeeeee;
+	text-shadow: 1px 1px rgba(0,0,0,0.15);
+}
+
+.quick-links-section .welcome h3 {
+	color: green;
+}
+
+.quick-links-section .group {
+	float: left;
+	width: 170px;
+	height: 180px;
+	padding: 10px;
+	margin: 20px 20px 10px 2px;
+	background: #eeeeee;
+	border: 1px solid #eeeeee;
+}
+
+.logs-section {
+	width: 618px;
+	height: 150px;
+	padding: 10px;
+	margin: 10px;
+	border: 1px solid #eeeeee;
+}

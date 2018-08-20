@@ -1,0 +1,122 @@
+
+@import url("form.css");
+
+.form label {
+    display: block;
+}
+
+.form fieldset {
+    padding: 5px;
+    margin: 10px 5px;
+    border: 1px dotted #eeeeee;
+}
+
+.form legend {
+    padding: 5px;
+    border: 1px solid #eeeeee;
+    border-radius: 5px;
+}
+
+.form select[name=product_category] {
+    min-width: 200px;
+    margin: 4px 5px 20px 5px;
+}
+
+.form select[name=year], .form select[name=month], 
+.form select[name=day] {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.form input[type=text], .form input[type=email] {
+    width: 500px;
+    margin: 4px 5px 20px 5px; 
+}
+
+.form input[type=file] {
+    padding: 2px;
+    margin: 10px 3px;
+} 
+
+.form textarea  {
+    min-height: 200px;
+    width: 600px;
+}
+
+.form textarea[name=description] {
+    min-height: 150px;
+}
+
+.product-buttons-section {
+    padding: 3px;
+    margin: 0 3px;    
+}
+
+.product-buttons-section button {
+    padding: 3px 5px;
+    margin: 2px 5px 2px 0;
+    font-size: 14px;
+    background: #eeeeee;
+    border: 1px solid #a0a0a0;
+    border-radius: 5px;
+}
+
+.product-buttons-section button#save {
+    background: #8DDE7B;
+    color: #ffffff;
+    border: 1px solid #8DDE7B;
+}
+
+.product-tab  {
+    width: auto;
+    color: #000000;
+    padding: 5px 5px 0 5px;
+    margin: 3px 0;
+    background: #eeeeee;
+}
+
+.product-tab ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+    margin: 0 5px 0 0;
+    border: 1px solid #a0a0a0;
+    border-radius: 5px 5px 0 0;
+    cursor: pointer;
+}
+
+
+.product-tab ul li.current {
+    font-weight: bold;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+}
+
+#product-images-form  {
+    display: none;
+}
+
+.form .file-section {
+    padding: 5px;
+    margin: 10px 0;
+    height: 90px;
+    border: 1px solid #eeeeee;
+}
+
+.form .file-section .input-box, .form .file-section #image-preview {
+    float: left;
+    width: 100px;
+    height: 80px;
+    border: 1px dotted #eeeeee;
+}
+
+.form .file-section .input-box {
+    width: 400px;
+    margin-right: 10px;
+    border: 0;
+}
+
+.form .file-section #image-preview img {
+    width: 100%;
+    height: 100%;
+}

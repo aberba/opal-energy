@@ -1,0 +1,38 @@
+/*
+ Copyright (c) 2015 Copyright Holder All Rights Reserved.
+*/
+.fscslider {
+    position: relative;
+    padding: 0;
+    overflow: hidden;
+}
+
+.fscslider img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.fscslider img.previous {
+    z-index: 1;
+}
+
+.fscslider img.current {
+    z-index: 2;
+}
+
+.fscslider .arrow {
+    display: block;
+    position: absolute;
+    width: 30px;
+    height: 28px;
+    background: rgba(255, 255, 255, 0.7);
+    color: #000000;
+    padding: 2px;
+    font-size: 18px;
+    font-family: arial, sans-serif;
+    text-align: center;
+    z-index: 4;
+    cursor: pointer;
+}

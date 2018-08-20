@@ -1,0 +1,87 @@
+@import url("form.css");
+
+@font-face {
+    font-family: "Abel";
+    src: url('../fonts/Abel-Regular.ttf') format("truetype");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+	display: block;
+    font-size: 80.5%/1.5;
+    font-family: Abel, Arial, Helvetica;
+    position: relative;
+	background: #13E845;
+    border: 1px solid #13E845;
+}
+
+#wrapper {
+	background-color: ;
+	width: 700px;
+	margin: 100px auto;
+	padding: 20px;
+	color: #ffffff;
+	text-align: center;
+}
+
+#wrapper .form {
+	display: block;
+	position: relative;
+	width: 400px;
+	padding: 30px;
+	margin: 30px auto;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 10px;
+    box-shadow: 0 0 2px 3px rgba(0,0,0,0.15);
+}
+
+#wrapper .form .status {
+	display: none;
+	padding: 5px 10px;
+	margin: 20px auto;
+	color: #000000;
+	background: #ffffff;
+	border-radius: 3px;
+}
+
+#wrapper .form label {
+	display: block;
+	font-size: 18px;
+	margin: 2px auto;
+	border: 0;
+} 
+
+#wrapper .form input[type=text], #wrapper .form input[type=password] {
+	width: 200px;
+	padding: 7px 10px;
+	margin: 5px auto 10px auto;
+	outline: none;
+	border-radius: 3px;
+}
+
+#wrapper .form input[type=text]:focus, #wrapper .form input[type=password]:focus {
+	border: 2x solid dodgerblue;
+}
+
+#wrapper .form button[name=login] {
+	padding: 5px 10px;
+	background: #ffffff;
+	color: #000000;
+	border: 1px solid #ffffff;
+	box-shadow: 0 0 1px 1px rgba(0,0,0,0.15);
+	border-radius: 5px 0 5px 0;
+}
+
+#wrapper .form button[name=login]:hover  {
+	box-shadow: 0 0 2px 3px rgba(0,0,0,0.15);
+}

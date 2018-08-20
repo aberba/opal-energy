@@ -1,0 +1,78 @@
+@import url("table.css");
+
+.services-section {
+	padding: 10px;
+    border: 1px solid #eeeeee;
+}
+
+.services-section .service {
+	display: block;
+	min-height: 210px;
+	margin: 20px 0;
+	border: 1px solid #eeeeee;
+}
+
+.services-section .service:first {
+	margin-top: 0;
+}
+
+.services-section .service:last {
+	margin-bottom: 0;
+}
+
+.services-section .service .title {
+	padding: 3px 5px;
+	margin: 0 0 5px 0;
+	font-size: 20px;
+	text-transform: capitalize;
+	box-shadow: 0 3px rgba(0,0,0,0.15);
+}
+
+.services-section .service .info-section {
+    float: left;
+    width: 400px;
+    border: 1px solid #eeeeee;
+}
+
+.services-section .service .info-section p {
+	margin: 3px;
+}
+
+.services-section .service .info-section table {
+	margin: 5px 0 0 0;
+}
+
+.services-section .service .info-section table tr td {
+	padding: 0 3px;
+}
+
+.services-section .service figure {
+	display: block;
+	float: left;
+	width: 200px;
+	height: 155px;
+	margin: 0 10px 0 0;
+} 
+
+.services-section .service figure img {
+	width: 100%;
+	height: 100%
+} 
+
+.services-section .service .options {
+	display: none;
+	padding: 7px;
+	margin: 0 0 5px 0;
+	background: #eeeeee;
+	border: 1px solid #a0a0a0;
+}
+
+.services-section .service:hover .options {
+	display: block;
+}
+
+.services-section .service .options ul li {
+	list-style: none;
+	display: inline-block;
+	margin: 0 5px;
+} 

@@ -1,0 +1,33 @@
+
+
+.table {
+    display: block;
+    width: 100%;
+}
+
+.table tr:nth-child(even) {
+    background: #eeeeee;
+}
+
+.table tr th, .table tr td {
+    word-wrap: break-word;
+}
+
+.table tr th {
+    padding: 7px 5px;
+    margin: 0 0 10px 0;
+    font-weight: normal;
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    box-shadow: 0 3px rgba(0,0,0,0.15);
+}
+
+.table tr td {
+    padding: 5px;
+    border: 1px solid #eeeeee;
+}
+
+.table tr th {
+    text-align: left;
+    border: 1px solid #a0a0a0;
+}
